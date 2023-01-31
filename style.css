@@ -1,0 +1,127 @@
+/* Add styles for the header */
+header {
+    background-color: rgb(2, 0, 0);
+    color: white;
+
+
+
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+
+ul li {
+    display: inline-block;
+    font-family: Lato;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+hr {
+    width: 950px;
+    height: 10px;
+    background-color: red;
+}
+
+img {
+    height: 508px;
+    width: 855px;
+    border-radius: 3%;
+
+}
+
+/* Add styles for the main section */
+.Main {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    height: 800px;
+}
+
+.github {
+    height: 190px;
+    width: 350px;
+}
+
+.gmail {
+    height: 190px;
+    width: 200px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: red;
+}
+
+.downloadbutton {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Add styles for the portfolio items */
+.portfolio-item {
+    width: 30%;
+    background-color: lightgray;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.Myname {
+    color: white;
+    font-family: Lato;
+    font-size: 30px;
+
+}
+
+/* Add styles for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 4;
+    width: 100%;
+    height: 300px;
+}
+
+.skillImage {
+    height: 780px;
+    background-color: #000;
+    border-radius: 0;
+}
+
+.techStack {
+    font-family: Latio;
+font-size: 50px;
+
+}
