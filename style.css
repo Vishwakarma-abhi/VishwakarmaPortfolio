@@ -2,7 +2,7 @@
 header {
     background-color: rgb(2, 0, 0);
     color: white;
-
+    margin: 0;
 
 
 }
@@ -158,4 +158,9 @@ footer {
 .Detail {
     font-family: Lato;
     font-size: 25px;
+}
+
+.techTable {
+    width: 200px;
+    height: 150px;
 }
